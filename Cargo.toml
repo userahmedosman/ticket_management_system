@@ -1,0 +1,11 @@
+[package]
+name = "ticket_management_system"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "1.17", features = ["full"]}
+log = "0.4"
+env_logger = "0.9"
+thiserror = "1.0"
+anyhow = "1.0"
